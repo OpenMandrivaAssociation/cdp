@@ -2,7 +2,7 @@
 %define release %mkrel 19
 %define realversion 0.33-13
 
-Summary: An interactive text-mode program for controlling audio CD-ROMs.
+Summary: An interactive text-mode program for controlling audio CD-ROMs
 Name: cdp
 Version: %{version}
 Release: %{release}
