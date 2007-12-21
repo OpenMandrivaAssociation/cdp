@@ -13,6 +13,7 @@ BuildRequires: ncurses-devel
 Source: ftp://sunsite.unc.edu/pub/Linux/apps/sound/cdrom/curses/cdp-%{realversion}.tar.bz2
 Patch7: cdp-keys.patch.bz2
 Patch8: cdp-cdrom_o_nonblock.patch.bz2
+BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 The cdp program plays audio CDs in your computer's CD-ROM drive.
