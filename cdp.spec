@@ -1,5 +1,5 @@
 %define version 0.33
-%define release %mkrel 19
+%define release %mkrel 21
 %define realversion 0.33-13
 
 Summary: An interactive text-mode program for controlling audio CD-ROMs
