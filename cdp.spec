@@ -9,6 +9,7 @@ Release: %{release}
 License: GPL
 Group: Sound
 URL: https://cdp.sourceforge.net/
+BuildRequires:	make
 BuildRequires: ncurses-devel
 Source: ftp://sunsite.unc.edu/pub/Linux/apps/sound/cdrom/curses/cdp-%{realversion}.tar.bz2
 Patch7: cdp-keys.patch.bz2
